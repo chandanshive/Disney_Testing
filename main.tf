@@ -12,10 +12,4 @@ resource "aws_instance" "webserver" {
   }
 }
 
-resource "aws_s3_bucket" "accuricsbucketdemo" {
-  bucket = "my-tf-test-bucket"
 
-  tags = {
-    Name = "bucketdemo_disney"
-  }
-}
